@@ -21,7 +21,7 @@ public class Actividad2AlexRios66668 {
     }
 
     public static void main(String[] args) {
-        /*
+        
         datos ( );
         space( );
         separador( );
@@ -211,7 +211,7 @@ public class Actividad2AlexRios66668 {
             default:
                 System.out.println("No aplica");
         }
-        */
+        
         
         System.out.println("Actividad 2.4 //  Ingresar un numero entre el 1 al 7,  y si es true señalar los días de la semana");
         System.out.println("en forma inglesa o forma laboral");
