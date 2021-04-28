@@ -21,7 +21,7 @@ public class Actividad2AlexRios66668 {
     }
 
     public static void main(String[] args) {
-        
+        /*
         datos ( );
         space( );
         separador( );
@@ -66,8 +66,8 @@ public class Actividad2AlexRios66668 {
                 
             default:
                 System.out.println("Este numero, sobre pasa nuestra cantidad de reservas");
-        }
         
+
         space ( );
         separador ( );
         
@@ -211,9 +211,76 @@ public class Actividad2AlexRios66668 {
             default:
                 System.out.println("No aplica");
         }
+        */
         
+        System.out.println("Actividad 2.4 //  Ingresar un numero entre el 1 al 7,  y si es true señalar los días de la semana");
+        System.out.println("en forma inglesa o forma laboral");
         
-        System.out.println("Actividad 2.4 // ");
+        int dia = 0; 
+        System.out.println("Ingresa un numero entre el 1 al 7");
+        Scanner semana = new Scanner(System.in);
+        dia = semana.nextInt();
+        
+                if (dia > 0 && dia < 8) {
+                    boolean b = false;
+                    Boolean miBooleano = new Boolean(b);
+                }if (true) {
+                    switch (dia) {
+                    case 1:
+                        System.out.println("Lunes");
+                        break;
+                    case 2: 
+                        System.out.println("Martes");
+                        break;
+                    case 3:
+                        System.out.println("Miercoles");
+                        break;
+                    case 4:
+                        System.out.println("Jueves");
+                        break;
+                    case 5:
+                        System.out.println("Viernes");
+                        break;
+                    case 6:
+                        System.out.println("Sabado");
+                        break;
+                    case 7:
+                        System.out.println("Domingo");
+                        break;
+                    default:
+                        System.out.println("Este valor no aplica");
+                }if (false) {
+                    switch (dia) {
+                    case 1:
+                        System.out.println("Domingo");
+                        break;
+                    case 2:
+                        System.out.println("Lunes");
+                        break;
+                    case 3:
+                        System.out.println("Martes");
+                        break;
+                     
+                    case 4:
+                        System.out.println("Miercoles");
+                        break;
+                    case 5:
+                        System.out.println("Jueves");
+                        break;
+                    case 6:
+                        System.out.println("Viernes");
+                        break;
+                    case 7:
+                        System.out.println("Sabado");
+                        break;
+                        
+                    default:
+                        throw new AssertionError();
+                }
+                }
+                }
+        
+        }
     }
     
 }
